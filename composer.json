@@ -1,0 +1,18 @@
+{
+  "name": "lotsofpixels/module-custom-shipping-method",
+  "description": "Extra custom shipping method",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "require": {
+    "magento/module-customer": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lotsofpixels\\CustomShippingMethod\\": ""
+    }
+  }
+}
