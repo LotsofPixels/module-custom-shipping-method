@@ -1,11 +1,11 @@
 {
   "name": "lotsofpixels/module-custom-shipping-method",
-  "description": "Extra custom shipping method",
+  "description": "An extra custom shipping method for Magento 2",
   "version": "1.0.0",
   "type": "magento2-module",
   "license": "OSL-3.0",
   "require": {
-    "magento/module-customer": "*"
+    "magento/module-sales": "*"
   },
   "autoload": {
     "files": [
